@@ -8,6 +8,7 @@ set(OpenCV_DIR /home/andy/opencv/build/)
 set(OpenCV_FOUND 1)
 find_package(OpenCV REQUIRED)
 
+
 set(SRC_FOLDER "src")
 file(GLOB SOURCES "${SRC_FOLDER}/*.cpp")
 
